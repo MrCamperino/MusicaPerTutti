@@ -54,6 +54,10 @@ body {
     #strisciolina > div > * {
         display: none;
     }
+
+    #strisciolina > nav {
+        justify-content: center;
+    }
 }
 
 @media (max-width:881px) {
