@@ -6,12 +6,12 @@
 }
 
 @font-face {
-    font-family: "bree_gen";
+    font-family: "andada_gen";
     src: url(./fonts/andada.regular.otf);
 }
 
 * {
-    font-family: "bree_gen";
+    font-family: "andada_gen";
     /*font-weight: lighter;*/
     box-sizing: content-box;
 }
@@ -121,21 +121,52 @@ i {
     font-family: "chewy_title";
 }
 
+#corsi a {
+    color: black;
+}
+
+#mappa_foto {
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+    padding: 20px;
+}
+
+#mappa_foto > iframe {
+    height: 100%;
+    width: 49%;
+    border-radius: 10px;
+}
+
+#mappa_foto > img {
+    height: 100%;
+    width: 49%;
+    object-fit: contain;
+}
+
 footer {
     background-color: rgba(237,187,63,255);
+    height: 130px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 footer > div {
     display: flex;
+    height: 30px;
     gap: 10px;
     padding-left: 20px;
 }
 
-footer > p {
+footer i {
+    align-self: center;
+}
+
+footer > div > p {
     margin: 0;
     padding: 5px;
+    font-size: smaller;
 }
 
 /*
