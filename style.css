@@ -93,6 +93,7 @@ body {
 
 #strisciolina > nav {
     padding-right: 50px;
+    overflow: hidden;
 }
 
 #strisciolina > nav > a {
