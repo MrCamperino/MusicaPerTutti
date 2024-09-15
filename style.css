@@ -13,6 +13,7 @@
 * {
     font-family: "bree_gen";
     /*font-weight: lighter;*/
+    box-sizing: content-box;
 }
 
 html {
@@ -51,12 +52,13 @@ body {
         justify-content: center;
     }
 
-    #strisciolina > div > * {
+    /* #strisciolina > div > * {
         display: none;
-    }
+    } */
 
     #strisciolina > nav {
         justify-content: center;
+        margin: auto;
     }
 
     #mappa {
