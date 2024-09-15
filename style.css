@@ -58,6 +58,10 @@ body {
     #strisciolina > nav {
         justify-content: center;
     }
+
+    #mappa {
+        width: 350px;
+    }
 }
 
 @media (max-width:881px) {
