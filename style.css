@@ -46,14 +46,20 @@ body {
     justify-content: space-between;
 }
 
+@media (max-width: 870px) {
+    #strisciolina {
+        justify-content: center;
+    }
+
+    #strisciolina > div > * {
+        display: none;
+    }
+}
+
 @media (max-width:881px) {
     body {
         width: 90%;
         margin: auto;
-    }
-
-    #strisciolina > p > * {
-        display: none;
     }
 
     #img_titolo > img {
