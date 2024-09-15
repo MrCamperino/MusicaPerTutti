@@ -58,7 +58,8 @@ body {
 
     #strisciolina > nav {
         justify-content: center;
-        margin: auto;
+        margin: auto;    
+        overflow: hidden;
     }
 
     #mappa {
@@ -74,6 +75,12 @@ body {
 
     #img_titolo > img {
         content: url(./images/sitomptm.jpg);
+    }
+}
+
+@media (max-width: 1000px) {
+    #mappa_foto {
+        flex-direction: column;
     }
 }
 
