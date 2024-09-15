@@ -1,0 +1,183 @@
+@font-face {
+    font-family: "chewy_title";
+    src: url(./fonts/Chewy-Regular.ttf);
+}
+
+@font-face {
+    font-family: "bree_gen";
+    src: url(./fonts/andada.regular.otf);
+}
+
+* {
+    font-family: "bree_gen";
+    /*font-weight: lighter;*/
+}
+
+html {
+    background-color: #ede3d7;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+}
+
+/*
+#strisciolina {
+    width: 80%;
+    position: fixed;
+    top: 0;
+    left: 10%;
+}
+*/
+
+#strisciolina {
+    background-color: rgba(237,187,63,255);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width:881px) {
+    body {
+        width: 90%;
+        margin: auto;
+    }
+
+    #strisciolina > p > * {
+        display: none;
+    }
+
+    #img_titolo > img {
+        content: url(./images/sitomptm.jpg);
+    }
+}
+
+#strisciolina_placeholder {
+    height: 40px;
+}
+
+#strisciolina svg {
+    align-self: center;
+}
+
+#strisciolina > p {
+    display: flex;
+    gap: 5px;
+    margin-block: 0;
+    padding: 5px;
+    padding-left: 50px;
+}
+
+#strisciolina > nav {
+    padding-right: 50px;
+}
+
+#strisciolina > nav > a {
+    padding: 20px;
+    text-decoration: none;
+    font-weight: lighter;
+    color: black;
+}
+
+#img_titolo > img {
+    width: 100%;
+}
+
+.caselle_testo {
+    margin-block: 5px;
+    padding-inline: 15px;
+}
+
+.caselle_testo > p {
+    padding: 5px;
+}
+
+.caselle_testo h2 {
+    text-align: left;
+    font-family: "chewy_title";
+}
+
+footer {
+    background-color: rgba(237,187,63,255);
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+
+footer > p {
+    margin: 0;
+    padding: 5px;
+}
+
+/*
+#logo_titolo {
+    display: flex;
+    justify-content: space-between;
+    height: 550px;
+    background-image: url(./images/sfondo_titolo.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#logo_titolo > * {
+    width: 20%;
+    list-style-type: none;
+}
+
+#titolo {
+    width: 60%;
+    text-align: center;
+    align-self: center;
+    font-size: x-large;
+}
+
+#titolo h1 {
+    font-family: "moreSugar_inte";
+    font-size: 70px;
+}
+
+#titolo h2 {
+    font-family: "chewy_title";
+}
+
+#lista {
+    align-self: flex-end;
+}
+
+#lista > ul {
+    width: 175px;
+    backdrop-filter: blur(3px);
+    border: 1px solid black;
+    border-radius: 5px;
+    list-style-type: none;
+    margin: 15px;
+    padding: 5px;
+}
+
+#lista > ul > li {
+    padding-block: 1px;
+}
+
+#lista > ul > li > a {
+    text-decoration: none;
+    font-size: large;
+}
+
+#spazio_img {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#spazio_img img {
+    height: 300px;
+    padding: 15px;
+}
+*/
