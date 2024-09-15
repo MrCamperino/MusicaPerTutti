@@ -67,12 +67,10 @@ body {
     align-self: center;
 }
 
-#strisciolina > p {
+#strisciolina > div {
+    margin-left: 50px;
     display: flex;
-    gap: 5px;
-    margin-block: 0;
-    padding: 5px;
-    padding-left: 50px;
+    gap: 10px;
 }
 
 #strisciolina > nav {
