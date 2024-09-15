@@ -60,6 +60,7 @@ body {
         justify-content: center;
         margin: auto;    
         overflow: hidden;
+        padding-left: 50px;
     }
 
     #mappa {
@@ -81,6 +82,13 @@ body {
 @media (max-width: 1000px) {
     #mappa_foto {
         flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+    }
+
+    #mappa_foto > iframe {
+        width: 100%;
     }
 }
 
