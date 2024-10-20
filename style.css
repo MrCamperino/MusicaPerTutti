@@ -144,6 +144,7 @@ i {
 .caselle_testo {
     margin-block: 5px;
     padding-inline: 15px;
+    font-size: 25px;
 }
 
 .caselle_testo > p {
