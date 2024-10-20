@@ -87,6 +87,14 @@ body {
         gap: 20px;
         width: 100%;
     }
+
+    #mappa_foto iframe {
+        padding-right: 40px;
+    }
+
+    #mappa_foto img {
+        padding-right: 40px;
+    }
 }
 
 @media (max-width: 500px) {
