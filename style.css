@@ -87,10 +87,6 @@ body {
         gap: 20px;
         width: 100%;
     }
-
-    #mappa_foto > iframe {
-        width: 100%;
-    }
 }
 
 @media (max-width: 500px) {
@@ -164,13 +160,13 @@ i {
 
 #mappa_foto > iframe {
     height: 100%;
-    width: 49%;
+    width: 100%;
     border-radius: 10px;
 }
 
 #mappa_foto > img {
     height: 100%;
-    width: 49%;
+    width: 100%;
     object-fit: contain;
 }
 
