@@ -45,6 +45,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    overflow: hidden;
 }
 
 @media (max-width: 870px) {
@@ -58,8 +59,8 @@ body {
 
     #strisciolina > nav {
         justify-content: center;
+        align-items: center;
         margin: auto;    
-        overflow: hidden;
         padding-left: 50px;
     }
 
@@ -92,6 +93,17 @@ body {
     }
 }
 
+@media (max-width: 500px) {
+    #strisciolina > nav > a {
+        padding-inline: auto;
+        /* margin: 0; */
+    }
+
+    #strisciolina > nav {
+        padding-inline: auto;
+    }
+}
+
 #strisciolina_placeholder {
     height: 40px;
 }
@@ -107,12 +119,15 @@ i {
 }
 
 #strisciolina > nav {
+    display: flex;
     padding-right: 50px;
-    overflow: hidden;
+    /* overflow: hidden; */
+    justify-content: center;
+    align-items: center;
 }
 
 #strisciolina > nav > a {
-    padding: 20px;
+    padding-inline: 20px;
     text-decoration: none;
     font-weight: lighter;
     color: black;
