@@ -169,7 +169,6 @@ i {
 #mappa_foto > iframe {
     height: 100%;
     width: 100%;
-    border-radius: 10px;
 }
 
 #mappa_foto > img {
